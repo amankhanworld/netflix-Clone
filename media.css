@@ -94,7 +94,7 @@
 
     .heroheader {
         background: linear-gradient(to top, transparent 0%, rgba(128, 128, 128, 0.237) 20%, rgb(0, 0, 0) 100%),
-            url(/Projects/netflixclone/img/heroimg.jpg) no-repeat;
+            url(/heroimg.jpg) no-repeat;
         height: 100vh;
     }
 
@@ -438,7 +438,7 @@
 
     .heroheader {
         background: linear-gradient(to top, transparent 0%, rgba(128, 128, 128, 0.237) 20%, rgb(0, 0, 0) 100%),
-            url(/Projects/netflixclone/img/heroimg.jpg) no-repeat;
+            url(heroimg.jpg) no-repeat;
         height: 100vh;
     }
 
