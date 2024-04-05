@@ -1,0 +1,587 @@
+@media screen and (max-width: 1280px) {
+
+    .container {
+        overflow: hidden;
+    }
+
+    .imagemobile {
+        width: 80%;
+        height: auto;
+    }
+
+    .second {
+        background-color: rgb(0, 0, 0);
+        width: 100vw;
+        padding: 100px 30px;
+        margin-top: 10px;
+    }
+
+    .tv {
+        width: 100%;
+        height: max-content;
+        color: white;
+        background-color: black;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .tvleft {
+        width: 50%;
+        height: max-content;
+    }
+
+    .tvright {
+        width: 40%;
+    }
+
+    .tv h1 {
+        font-family: sans-serif;
+        font-weight: 800;
+        font-size: 2.5rem;
+        padding: 0px 30px;
+        line-height: 45px;
+    }
+
+    .tv h2 {
+        padding: 20px 30px;
+        font-weight: 300;
+    }
+
+    li {
+        list-style: none;
+        width: 10%;
+        height: auto;
+        font-size: 0.8rem;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+
+
+
+    .image {
+        width: 100%;
+        height: auto;
+    }
+
+    .laptop {
+        display: none;
+    }
+
+    .tab {
+        display: block;
+    }
+
+    .imagemobile {
+        width: 40%;
+    }
+
+    .btn {
+        width: max-content;
+        padding: 5px 20px;
+        background-color: #e50914;
+        color: white;
+        font-size: 12px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    /* header */
+
+    .heroheader {
+        background: linear-gradient(to top, transparent 0%, rgba(128, 128, 128, 0.237) 20%, rgb(0, 0, 0) 100%),
+            url(/Projects/netflixclone/img/heroimg.jpg) no-repeat;
+        height: 100vh;
+    }
+
+    header {
+        width: 100vw;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 100px;
+        background-color: transparent;
+    }
+
+    .logo img {
+        width: 80px;
+    }
+
+
+    .dropbtn {
+        width: 130px;
+        color: white;
+        background-color: transparent;
+        padding: 5px 20px;
+        font-size: 12px;
+        border: 1px solid white;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .cta {
+        gap: 10px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 10px 14px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: transparent
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: transparent;
+        color: black;
+        border: 1px solid black;
+    }
+
+    /* Hero Section */
+
+    .heroheader {
+        height: max-content;
+    }
+
+    .hero {
+        color: white;
+        width: 100vw;
+        height: 80vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero h1 {
+        font-family: sans-serif;
+        font-weight: 800;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 0px 20px;
+    }
+
+    .hero h2 {
+        padding: 15px 30px;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .hero h3 {
+        padding: 10px 30px;
+        font-weight: 300;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .hero input {
+        width: 300px;
+        padding: 12px 40px;
+        color: white;
+        background-color: #00000094;
+        font-size: 14px;
+        border: 1px solid white;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .hero .input::placeholder {
+        color: #e50914;
+    }
+
+    .hero button {
+        width: max-content;
+        padding: 12px 40px;
+        background-color: #e50914;
+        color: white;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .hero .button {
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px 30px;
+    }
+
+    /* second Section */
+
+    .second {
+        background-color: rgb(0, 0, 0);
+        width: 100vw;
+        padding: 50px 30px;
+        margin-top: 10px;
+    }
+
+    .tv {
+        width: 100%;
+        height: max-content;
+        color: white;
+        background-color: black;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .tvleft {
+        width: 100%;
+        height: max-content;
+    }
+
+    .tvright {
+        width: 80%;
+        justify-content: center;
+    }
+
+    .tv h1 {
+        font-family: sans-serif;
+        font-weight: 800;
+        font-size: 1.5rem;
+        padding: 0px 30px;
+        line-height: 45px;
+        text-align: center;
+    }
+
+    .tv h2 {
+        padding: 20px 30px 50px;
+        font-size: 1rem;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    /* third section */
+
+    .third {
+        background-color: rgb(0, 0, 0);
+        width: 100vw;
+        padding: 50px 30px;
+        margin-top: 10px;
+    }
+
+    /* Fourth Section */
+
+    .fourth {
+        background-color: rgb(0, 0, 0);
+        width: 100vw;
+        padding: 50px 30px;
+        margin-top: 10px;
+    }
+
+    /* Fifth Section */
+
+    .fifth {
+        background-color: rgb(0, 0, 0);
+        width: 100vw;
+        padding: 50px 30px;
+        margin-top: 10px;
+    }
+
+    /* sixth Section */
+
+    .sixth {
+        background-color: rgb(0, 0, 0);
+        width: 100vw;
+        padding: 50px 30px;
+        margin-top: 10px;
+    }
+
+    .sixth h1 {
+        color: white;
+        font-family: sans-serif;
+        text-align: center;
+        font-weight: 800;
+        font-size: 2rem;
+        padding: 0px 30px 50px;
+        line-height: 70px;
+    }
+
+    /* Style the buttons that are used to open and close the accordion panel */
+    .accordion {
+        background-color: #444;
+        color: #eee;
+        cursor: pointer;
+        padding: 14px 40px;
+        width: 100%;
+        font-size: 1rem;
+        text-align: left;
+        transition: 0.4s;
+    }
+
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active,
+    .accordion:hover {
+        background-color: #ccc;
+        color: black;
+    }
+
+    /* Style the accordion panel. Note: hidden by default */
+    .panel {
+        padding: 0 18px;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+    }
+
+    .sixth h3 {
+        color: #eee;
+        padding: 20px 30px;
+        font-weight: 300;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .sixth input {
+        width: 400px;
+        padding: 5px 40px;
+        color: white;
+        background-color: #00000094;
+        font-size: 14px;
+        border: 1px solid white;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .sixth .input::placeholder {
+        color: #e50914;
+    }
+
+    .sixth .six {
+        width: max-content;
+        padding: 12px 40px;
+        background-color: #e50914;
+        color: white;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .sixth .button {
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px 30px;
+    }
+
+    /* footer Section */
+
+    .last {
+        background-color: black;
+        color: rgb(186, 186, 186);
+        width: 100vw;
+        padding: 100px;
+        margin-top: 10px;
+    }
+
+    .last {
+        height: 500px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .last h3 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .last p {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .lastchild {
+        align-self: center;
+    }
+
+    ul {
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    li {
+        list-style: none;
+        width: 20%;
+        flex-basis: 20%;
+        /* height: auto; */
+        font-size: 0.8rem;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    /* header */
+
+    .heroheader {
+        background: linear-gradient(to top, transparent 0%, rgba(128, 128, 128, 0.237) 20%, rgb(0, 0, 0) 100%),
+            url(/Projects/netflixclone/img/heroimg.jpg) no-repeat;
+        height: 100vh;
+    }
+
+    header {
+        width: 100vw;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 20px;
+        background-color: transparent;
+    }
+
+    .logo img {
+        width: 80px;
+    }
+
+
+    .dropbtn {
+        width: max-content;
+        color: white;
+        background-color: transparent;
+        padding: 5px 10px;
+        font-size: 12px;
+        border: 1px solid white;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .btn {
+        width: max-content;
+        padding: 5px 10px;
+        background-color: #e50914;
+        color: white;
+        font-size: 12px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .cta {
+        gap: 10px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 10px 14px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: transparent
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: transparent;
+        color: black;
+        border: 1px solid black;
+    }
+
+    .dropdown p {
+        display: none;
+    }
+
+    .hero h1 {
+        font-family: sans-serif;
+        font-weight: 800;
+        font-size: 2rem;
+        text-align: center;
+        padding: 0px 30px;
+    }
+    
+    .hero h2 {
+        padding: 20px 30px;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .hero h3 {
+        padding: 10px 30px;
+        font-weight: 300;
+        line-height: 20px;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+ /* footer Section */
+
+ .last {
+    background-color: black;
+    color: rgb(186, 186, 186);
+    width: 100vw;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.last {
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.last h3 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.last p {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.lastchild {
+    align-self: center;
+}
+
+ul {
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+li {
+    text-align: center;
+    list-style: none;
+    flex-basis: 100%;
+    /* height: auto; */
+    font-size: 0.8rem;
+}
+
+
+}
